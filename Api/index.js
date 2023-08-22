@@ -1,7 +1,7 @@
 // index.js
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 5432;
 
 app.get("/", (req, res) => {
   res.send("¡Backend funcionando!");
